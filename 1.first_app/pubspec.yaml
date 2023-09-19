@@ -1,0 +1,28 @@
+name: first_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  auto_route: ^5.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^5.0.3
+  build_runner:
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
